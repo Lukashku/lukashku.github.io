@@ -19,13 +19,12 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
-title:                testing
+title:                 3nt3r
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
+  Cybersec/Infosec writeups and blog posts.
   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
   Open `_config.yml` to edit this text.
 
@@ -51,8 +50,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
+  - title:             HackTheBox
+    url:               /hackthebox/
   - title:             Documentation
     url:               https://hydejack.com/docs/
   - title:             About
