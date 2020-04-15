@@ -31,7 +31,6 @@ description:           >
 # A shorter description for the sidebar.
 tagline:               >
   Cybersec/Infosec wirteups and blog posts.
-  Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
 keywords:              []

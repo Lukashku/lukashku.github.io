@@ -10,6 +10,7 @@ slug: hackthebox
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+  These writeups all come from https://hackthebox.eu. They are all
+  Written by me 3nt3r. If you enjoy the content, feel free to respect 
+  me on hackthebox. 
 ---
