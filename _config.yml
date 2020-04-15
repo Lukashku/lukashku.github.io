@@ -30,7 +30,7 @@ description:           >
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
+  Cybersec/Infosec wirteups and blog posts.
   Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
@@ -52,8 +52,8 @@ author:
 menu:
   - title:             HackTheBox
     url:               /hackthebox/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
+  - title:             Vulnhub
+    url:               /vulnhub/
   - title:             About
     url:               /about/
 
