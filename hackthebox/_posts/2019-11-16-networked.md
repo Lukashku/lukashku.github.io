@@ -38,6 +38,7 @@ Nmap done: 1 IP address (1 host up) scanned in 151.49 seconds
 Only a couple ports open. Lets check out port 80. Navigating to the webp age we don't see much.
 
 ![home.png](../../resources/8dfca00da31747308e81d05eb2d94a9a.png)
+
 Running a <b>gobuster</b> will give us a few results.
 
 ```
