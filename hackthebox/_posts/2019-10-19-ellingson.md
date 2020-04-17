@@ -1,7 +1,12 @@
-Ellingson
+---
+layout: post
+title: Ellingson (10.10.10.139) Writeup
+description: >
+  Hackthebox Ellingson Writeup
+image: /assets/img/ellingson.png
+noindex: true
+---
 
-<center><h1>Ellingson</h1></center>
-<br>
 <center><h3>Summary</h3></center>
 
 - Find a python interactive console by enumerating the Ib page
