@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Networked (10.10.10.146) Writeup
+title: HackTheBox Networked (10.10.10.146) Writeup
 description: >
   Hackthebox Networked Writeup
 image: /assets/img/networked.png

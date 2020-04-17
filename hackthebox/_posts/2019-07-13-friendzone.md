@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Friendzone (10.10.10.123) Writeup
+title: HackTheBox Friendzone (10.10.10.123) Writeup
 description: >
   Hackthebox Friendzone Writeup
 image: /assets/img/friendzone.png

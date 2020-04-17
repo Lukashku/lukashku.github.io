@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ellingson (10.10.10.139) Writeup
+title: HackTheBox Ellingson (10.10.10.139) Writeup
 description: >
   Hackthebox Ellingson Writeup
 image: /assets/img/ellingson.png

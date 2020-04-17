@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LaCasaDePapel (10.10.10.131) Writeup
+title: HackTheBox LaCasaDePapel (10.10.10.131) Writeup
 description: >
   Hackthebox LaCasaDePapel Writeup
 image: /assets/img/lacasa.png
