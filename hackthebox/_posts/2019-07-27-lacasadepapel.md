@@ -10,8 +10,8 @@ noindex: true
 <center><h3>Summary</h3></center>
 
 - Use an old FTP exploit to open a backdoor on the box allowing us to get a Psy php shell
-- Grab a CA key file off the box and a CA crt from the Ibpage
-- Use the CA key file and CA crt file to generate a .p12 file and log into the Ibpage
+- Grab a CA key file off the box and a CA crt from the webpage
+- Use the CA key file and CA crt file to generate a .p12 file and log into the webpage
 - Use an LFI vulnerability to grab and SSH private key
 - Use the private key to SSH in
 - Replace the memcached.ini file with our own to spawn a reverse shell
@@ -172,9 +172,9 @@ dir('/home/oslo');
      "static",
    ]
 ```
-Seeing that <b>ca.key</b> made me want to check out port 443. Navigating to the Ib page my hunch was confirmed when it asks us for a client certificate to access the full Ib page.
+Seeing that <b>ca.key</b> made me want to check out port 443. Navigating to the web page my hunch was confirmed when it asks us for a client certificate to access the full web page.
 
-![Ibpage.png](../../resources/0a3c2bdc11d84319aa778f0e8280e3e4.png)
+![webpage.png](../../resources/0a3c2bdc11d84319aa778f0e8280e3e4.png)
 
 I copied the key to my host machine by reading the <b>ca.key</b> file and then pasting the contents into an empty file.
 
@@ -209,7 +209,7 @@ aRklful5+Z60JV/5t2Wt9gyHYZ6SYMzApUanVXaWCCNVoeq+yvzId0st2DRl83Vc
 53udBEzjt3WPqYGkkDknVhjD
 -----END PRIVATE KEY-----
 ```
-Now the next step is to grab the <b>.crt</b> file from your Ib browser. In Firefox navigate to <b>Preferences > Privacy and Security > View Certificates</b>. Once there, in the top right click on <b>Authorities</b> and scroll down until you see the certificate for <b>lacasadepapelhtb.htb</b> and then import/download it to you host machine.
+Now the next step is to grab the <b>.crt</b> file from your web browser. In Firefox navigate to <b>Preferences > Privacy and Security > View Certificates</b>. Once there, in the top right click on <b>Authorities</b> and scroll down until you see the certificate for <b>lacasadepapelhtb.htb</b> and then import/download it to you host machine.
 
 ![certificate.png](../../resources/73133e73a77548c389752787b62b398b.png)
 
@@ -223,11 +223,11 @@ Now I need to import the <b>lacasadepapel.p12</b> into Firefox. Go back to <b>Pr
 
 ![p12.png](../../resources/939c6fa922bc4615a4152b980b25603f.png)
 
-Now if I go back to the Ib page and refresh it, I no longer get the client certificate error.
+Now if I go back to the web page and refresh it, I no longer get the client certificate error.
 
 ![in.png](../../resources/5c0a895d06c5416198c879de003b2ec7.png)
 
-Looking through all the <b>avi</b> files I don't find anything since they are all empty but I looking a the source code of the Ibpage does reveal something interesting at the bottom. I see some files stored in a <b>/file</b> directory with files that look like they are encoded in base64. Using this I can do 2 things:
+Looking through all the <b>avi</b> files I don't find anything since they are all empty but I looking a the source code of the webpage does reveal something interesting at the bottom. I see some files stored in a <b>/file</b> directory with files that look like they are encoded in base64. Using this I can do 2 things:
 - Grab the user flag in <b>/home/berlin</b>
 - Grab an ssh private key from <b>/home/berlin/.ssh/id_rsa</b> and log in with it
 
