@@ -9,7 +9,7 @@ noindex: true
 
 <center><h3>Summary</h3></center>
 
-- Find a python interactive console by enumerating the Ib page
+- Find a python interactive console by enumerating the web page
 - Use the interactive console to add your SSH public key to the <b>authorized_keys</b> file and then SSH in
 - Unshadow the <b>shadow.bak</b> and <b>passwd</b> files and crack the password using <b>john</b>
 - Use the cracked password to SSH in as the new user
@@ -37,7 +37,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Sat Jun 15 12:15:45 2019 -- 1 IP address (1 host up) scanned in 13.05 seconds
 ```
-Only a couple ports open but I will be looking at port 80 specifically. Navigating to the Ib page I am greeted with a simple Ibsite.
+Only a couple ports open but I will be looking at port 80 specifically. Navigating to the web page I am greeted with a simple website.
 
 ![home.png](../../resources/6ebfe14b649943b7b16f266041717ae3.png)
 
@@ -67,7 +67,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
 /images (Status: 301)
 /assets (Status: 301)
 ```
-So there are a few directories but nothing I didn't find with the manual enumeration. Something I did notice is that the <b>/articles</b> directory was not there even though the Ib page has an <b>/articles</b> directory. This gave me the idea to look closer at that directory to see if I could find anything manually. Turns out that if you enter an article number higher than 3 then it gives you the option to use a python interactive console.
+So there are a few directories but nothing I didn't find with the manual enumeration. Something I did notice is that the <b>/articles</b> directory was not there even though the webpage has an <b>/articles</b> directory. This gave me the idea to look closer at that directory to see if I could find anything manually. Turns out that if you enter an article number higher than 3 then it gives you the option to use a python interactive console.
 
 ![debug.png](../../resources/475a190fa49f4163ac1387786de94fbc.png)
 
