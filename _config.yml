@@ -53,6 +53,10 @@ menu:
     url:               /hackthebox/
   - title:             Vulnhub
     url:               /vulnhub/
+  - title:             NullzSec Blog
+    url:               https://blog.nullzsec.com/
+  - title:             NullzSec Discord
+    url:               https://discord.gg/K5dtheZ
   - title:             About
     url:               /about/
 
