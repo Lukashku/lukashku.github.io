@@ -10,7 +10,7 @@ slug: hackthebox
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  These writeups all come from ![https://hackthebox.eu](https://www.hackthebox.eu/). They are all
-  Written by me, 3nt3r. If you enjoy the content, feel free to ![respect 
+  These writeups all come from [https://hackthebox.eu](https://www.hackthebox.eu/). They are all
+  Written by me, 3nt3r. If you enjoy the content, feel free to [respect 
   me on hackthebox](https://www.hackthebox.eu/home/users/profile/82397). 
 ---
