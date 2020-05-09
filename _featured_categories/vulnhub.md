@@ -10,6 +10,5 @@ slug: vulnhub
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  This is a featured category, which have their own page.
-  Check out `_featured_tags/example.md` to learn how to create your own.
+	These writeups all come from boxes downloaded from [https://www.vulnhub.com](https://www.vulnub.com). All the writeups are written by me.
 ---
