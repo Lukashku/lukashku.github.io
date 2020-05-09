@@ -10,5 +10,6 @@ slug: vulnhub
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-	These writeups all come from boxes downloaded from [https://www.vulnhub.com](https://www.vulnub.com). All the writeups are written by me.
+	These writeups all come from boxes downloaded from [https://www.vulnhub.com](https://www.vulnub.com). 
+	All the writeups are written by me.
 ---
