@@ -4,7 +4,7 @@ title: HackTheBox ForwardSlash (10.10.10.183) Writeup
 description: >
   Hackthebox ForwardSlash Writeup
 image: /assets/img/forwardslash.png
-noindex: true
+noindex: false
 ---
 
 This box is still active therefore the writeup is protected.

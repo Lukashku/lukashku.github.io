@@ -4,7 +4,7 @@ title: HackTheBox OpenAdmin (10.10.10.171) Writeup
 description: >
   Hackthebox OpenAdmin Writeup
 image: /assets/img/openadmin.png
-noindex: true
+noindex: false
 ---
 
 First start with an nmap scan

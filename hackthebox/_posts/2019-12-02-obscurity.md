@@ -4,7 +4,7 @@ title: HackTheBox Obscurity (10.10.10.168) Writeup
 description: >
   Hackthebox Obscurity Writeup
 image: /assets/img/obscurity.png
-noindex: true
+noindex: false
 ---
 
 **NMAP:**
