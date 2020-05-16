@@ -4,7 +4,6 @@ title: HackTheBox Ellingson (10.10.10.139) Writeup
 description: >
   Hackthebox Ellingson Writeup
 image: /assets/img/ellingson.png
-noindex: false
 ---
 
 <center><h3>Summary</h3></center>
